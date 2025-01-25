@@ -12,7 +12,7 @@ This repository contains all the projects and programs I am working on for my C+
 
 ## Project Details
 
-### Slot Machine
+##### Slot Machine
 - **Description:** A simple slot machine program that simulates a random result based on three reels, with a winning condition if all three symbols match.
 - **Technologies Used:** C++, random number generation, loops.
 - **How to Run:**
