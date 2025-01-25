@@ -94,7 +94,6 @@ main() {
               }
               else {
                 cout << "99% of gamblers quit before their big win!" << endl;
-                cout << "this is a test" << endl;
               }
 
         }
