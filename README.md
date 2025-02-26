@@ -1,70 +1,95 @@
 # C++ Class Projects - Spring 2025
 
-This repository contains all the projects and programs I am working on for my C++ class during the Spring 2025 semester. The projects cover a variety of concepts, from basic syntax to more interactive applications.
+This repository contains all the projects and programs I am working on for my C++ class during the Spring 2025 semester. The projects cover a variety of concepts, from basic syntax to more interactive applications, including object-oriented programming.
 
 ## Table of Contents
 
+- [Nutrition Tracker](#nutrition-tracker)
+- [Employee Database](#employee-database)
 - [Slot Machine](#slot-machine)
 - [Magic 8 Ball](#magic-8-ball)
-- [Hello World](#hello-world)
+- [Flight Calculator](#flight-calculator)
 - [Circle Calculator](#circle-calculator)
-- [Review](#review)
+- [Hello World](#hello-world)
+
+## How to Run
+
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Compile using your C++ compiler (e.g., `g++ filename.cpp -o filename`).
+4. Run the executable (e.g., `./filename`).
 
 ## Project Details
 
-## Slot Machine
+### Nutrition Tracker
+- **Description:** This program allows users to track their food intake by selecting items from a predefined food database. Each food item has attributes such as calories, fat, sugar, protein, and sodium. Users can select multiple food items, and the program will calculate the total nutritional values.
+- **Technologies Used:** C++, operator overloading, vectors, object-oriented programming.
+
+#### Example Output
+```
+1. Apple  
+2. Pizza Slice  
+3. Banana  
+...  
+Enter a number >= 11 to stop selecting  
+2  
+Pizza Slice Selected!  
+3  
+Banana Selected!  
+11  
+Total Nutrition: Energy: 450, Fat: 10, Sugar: 31, Protein: 1.5, Sodium: 0.61  
+```
+
+### Employee Database
+- **Description:** This program manages a list of employees, allowing users to view employee details and calculate total wages based on hours worked. Employees have attributes such as name, job title, and hourly wage. The user can choose to print a list of employees or compute total payroll by entering hours worked.
+- **Technologies Used:** C++, vectors, user input, object-oriented programming.
+
+#### Example Output
+```
+This program tracks employee data.  
+1. Print a list of employees  
+2. Calculate total wages  
+3. Exit application  
+Enter your choice: 2  
+Enter total number of hours worked per employee:  
+How many hours did Bob work?  
+40  
+How many hours did Tom work?  
+35  
+How many hours did Rob work?  
+45  
+How many hours did Tod work?  
+30  
+How many hours did Moe work?  
+50  
+Total employee payment: $4850  
+```
+
+### Slot Machine
 - **Description:** A simple slot machine program that simulates a random result based on three reels, with a winning condition if all three symbols match.
 - **Technologies Used:** C++, random number generation, loops.
-- **How to Run:**
-    1. Clone the repository.
-    2. Navigate to the project directory.
-    3. Compile using your C++ compiler (e.g., `g++ slot_machine.cpp -o slot_machine`).
-    4. Run the executable (e.g., `./slot_machine`).
 
 ### Magic 8 Ball
 - **Description:** A digital version of the Magic 8 Ball toy, where the program provides random answers to yes/no questions.
 - **Technologies Used:** C++, random number generation, user input.
-- **How to Run:**
-    1. Clone the repository.
-    2. Navigate to the project directory.
-    3. Compile using your C++ compiler (e.g., `g++ magic_8_ball.cpp -o magic_8_ball`).
-    4. Run the executable (e.g., `./magic_8_ball`).
 
-### Hello World
-- **Description:** A basic "Hello, World!" program to demonstrate simple output and syntax in C++.
-- **Technologies Used:** C++ syntax, basic output.
-- **How to Run:**
-    1. Clone the repository.
-    2. Navigate to the project directory.
-    3. Compile using your C++ compiler (e.g., `g++ hello_world.cpp -o hello_world`).
-    4. Run the executable (e.g., `./hello_world`).
+### Flight Calculator
+- **Description:** A program that calculates estimated flight durations and distances based on user-provided departure and destination locations.
+- **Technologies Used:** C++, mathematical calculations, user input.
 
 ### Circle Calculator
 - **Description:** A program that calculates the area and circumference of a circle based on the user input for radius.
 - **Technologies Used:** C++, user input, basic math operations.
-- **How to Run:**
-    1. Clone the repository.
-    2. Navigate to the project directory.
-    3. Compile using your C++ compiler (e.g., `g++ circle_calculator.cpp -o circle_calculator`).
-    4. Run the executable (e.g., `./circle_calculator`).
 
-### Review
-- **Description:** A program that reviews concepts learned so far in the course, allowing the user to input questions and get feedback.
-- **Technologies Used:** C++, user input, conditional statements.
-- **How to Run:**
-    1. Clone the repository.
-    2. Navigate to the project directory.
-    3. Compile using your C++ compiler (e.g., `g++ review.cpp -o review`).
-    4. Run the executable (e.g., `./review`).
+### Hello World
+- **Description:** A basic "Hello, World!" program to demonstrate simple output and syntax in C++.
+- **Technologies Used:** C++ syntax, basic output.
 
 ## Contributing
-
 If you'd like to contribute to any of the projects in this repository, feel free to open a pull request or submit an issue.
 
 ## License
-
 This repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-
 For any questions or suggestions, feel free to reach out to me at refreshedacount@gmail.com
