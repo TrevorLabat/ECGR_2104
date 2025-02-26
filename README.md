@@ -6,9 +6,9 @@ This repository contains all the projects and programs I am working on for my C+
 
 - [Nutrition Tracker](#nutrition-tracker)
 - [Employee Database](#employee-database)
+- [Flight Calculator](#flight-calculator)
 - [Slot Machine](#slot-machine)
 - [Magic 8 Ball](#magic-8-ball)
-- [Flight Calculator](#flight-calculator)
 - [Circle Calculator](#circle-calculator)
 - [Hello World](#hello-world)
 
@@ -23,7 +23,11 @@ This repository contains all the projects and programs I am working on for my C+
 
 ### Nutrition Tracker
 - **Description:** This program allows users to track their food intake by selecting items from a predefined food database. Each food item has attributes such as calories, fat, sugar, protein, and sodium. Users can select multiple food items, and the program will calculate the total nutritional values.
-- **Technologies Used:** C++, operator overloading, vectors, object-oriented programming.
+- **Technologies Used:**
+  - C++
+  - Operator overloading
+  - Vectors
+  - Object-oriented programming
 
 #### Example Output
 ```
@@ -42,7 +46,11 @@ Total Nutrition: Energy: 450, Fat: 10, Sugar: 31, Protein: 1.5, Sodium: 0.61
 
 ### Employee Database
 - **Description:** This program manages a list of employees, allowing users to view employee details and calculate total wages based on hours worked. Employees have attributes such as name, job title, and hourly wage. The user can choose to print a list of employees or compute total payroll by entering hours worked.
-- **Technologies Used:** C++, vectors, user input, object-oriented programming.
+- **Technologies Used:**
+  - C++
+  - Vectors
+  - User input
+  - Object-oriented programming
 
 #### Example Output
 ```
@@ -65,25 +73,39 @@ How many hours did Moe work?
 Total employee payment: $4850  
 ```
 
+### Flight Calculator
+- **Description:** A program that calculates estimated flight durations and distances between predefined locations using the Haversine formula. The user selects a departure and destination, and the program computes the distance in miles and an estimated flight time assuming a constant jet speed. The program takes into account latitude and longitude for accurate calculations.
+- **Technologies Used:**
+  - C++
+  - Mathematical calculations
+  - User input
+
 ### Slot Machine
 - **Description:** A simple slot machine program that simulates a random result based on three reels, with a winning condition if all three symbols match.
-- **Technologies Used:** C++, random number generation, loops.
+- **Technologies Used:**
+  - C++
+  - Random number generation
+  - Loops
 
 ### Magic 8 Ball
 - **Description:** A digital version of the Magic 8 Ball toy, where the program provides random answers to yes/no questions.
-- **Technologies Used:** C++, random number generation, user input.
-
-### Flight Calculator
-- **Description:** A program that calculates estimated flight durations and distances based on user-provided departure and destination locations.
-- **Technologies Used:** C++, mathematical calculations, user input.
+- **Technologies Used:**
+  - C++
+  - Random number generation
+  - User input
 
 ### Circle Calculator
 - **Description:** A program that calculates the area and circumference of a circle based on the user input for radius.
-- **Technologies Used:** C++, user input, basic math operations.
+- **Technologies Used:**
+  - C++
+  - User input
+  - Basic math operations
 
 ### Hello World
 - **Description:** A basic "Hello, World!" program to demonstrate simple output and syntax in C++.
-- **Technologies Used:** C++ syntax, basic output.
+- **Technologies Used:**
+  - C++ syntax
+  - Basic output
 
 ## Contributing
 If you'd like to contribute to any of the projects in this repository, feel free to open a pull request or submit an issue.
